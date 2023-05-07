@@ -488,7 +488,6 @@ ul {
 .section-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
 }
 .footer-list {
   display: flex;
@@ -644,6 +643,7 @@ ul {
   height: 584px;
   left: 50%;
   top: 50%;
+  padding: 72px 24px 24px;
   transform: translate(-50%, -50%) scale(1);
   border-radius: 4px;
   background-color: var(--color-dairy);
@@ -683,14 +683,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-color-navyblue);
-  margin-top: 72px;
   margin-bottom: 16px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .contact-form {
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .modal-form-label {
   display: block;
@@ -726,6 +721,7 @@ ul {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
+  fill: currentColor;
 }
 .modal-form-input:focus + .modal-form-icon,
 .modal-form-input:hover + .modal-form-icon {
@@ -800,6 +796,9 @@ ul {
   line-height: 1.1;
   letter-spacing: 0.04em;
   color: var(--color-lightslate);
+}
+.modal-form-privacy-link {
+  color: var(--color-iris);
 }
 .send-contact-btn {
   font-weight: 400;
